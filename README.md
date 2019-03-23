@@ -19,3 +19,12 @@ Both tools rely on the same default convention of project's directory structure:
             ├───java
             └───resources        
  ```
+ 
+# Installation
+## Maven
+1. Download the latest binary distribution from [https://maven.apache.org/download.cgi]
+2. And follow the guides for your OS from [https://maven.apache.org/install.html]
+
+## Gradle
+1. Download the latest binary distribution from [https://gradle.org/releases/]
+2. And follow the guides for your OS from [https://gradle.org/install/]
