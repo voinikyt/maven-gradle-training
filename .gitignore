@@ -1,6 +1,10 @@
 HELP.md
 */target/*
 */target/**
+
+*/build/*
+*/build/**
+
 !.mvn/wrapper/maven-wrapper.jar
 .vertx/
 target/
@@ -11,6 +15,8 @@ target/
 .project
 .DS_Store
 /.factorypath
+.gradle
+/build/
 
 ### STS ###
 .apt_generated
@@ -34,3 +40,5 @@ target/
 /nbdist/
 /.nb-gradle/
 /build/
+
+classes/
