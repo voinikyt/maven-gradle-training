@@ -4,7 +4,7 @@
 
     <groupId>com.build.tools.training</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Maven Parent-</name>
 
@@ -12,7 +12,7 @@
         <connection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</connection>
         <developerConnection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</developerConnection>
         <url>scm:git:git@github.com:voinikyt/maven-gradle-training.git</url>
-        <tag>0.1.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>
