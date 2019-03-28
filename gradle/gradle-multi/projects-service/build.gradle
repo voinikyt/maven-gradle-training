@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+ext {
+    lombokVersion = "1.18.6"
+}
+
+dependencies {
+    compile "com.google.guava:guava:12.0"
+
+    compileOnly "org.projectlombok:lombok:$lombokVersion"
+    annotationProcessor("org.projectlombok:lombok:$lombokVersion")
+
+    testCompileOnly "org.projectlombok:lombok:$lombokVersion"
+    testAnnotationProcessor("org.projectlombok:lombok:$lombokVersion")
+}
