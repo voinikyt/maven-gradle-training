@@ -2,6 +2,8 @@ allprojects {
     group = 'com.build.tools.training'
     version = '0.2.0-SNAPSHOT'
 
+    apply plugin: "maven"
+
     repositories {
         mavenLocal()
         mavenCentral()

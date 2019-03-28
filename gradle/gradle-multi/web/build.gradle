@@ -3,6 +3,10 @@ plugins {
     id 'org.gretty' version '2.3.1'
 }
 
+ext {
+    environment = System.properties['environment'] ?: 'dev'
+}
+
 gretty {
     contextPath = "/"
 }
@@ -15,4 +19,8 @@ dependencies {
     compile 'commons-io:commons-io:2.6'
 
     providedCompile 'javax.servlet:javax.servlet-api:4.0.1'
+}
+
+processResources {
+    expand(project.properties)
 }
