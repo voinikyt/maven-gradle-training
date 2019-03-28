@@ -53,7 +53,6 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <!-- the line below is a solution to a problem described in http://maven.40175.n5.nabble.com/Release-plugin-and-multimodule-interdependent-childs-td118739.html -->
                     <preparationGoals>clean,install</preparationGoals>
                     <goals>deploy</goals>
                     <tagNameFormat>@{project.version}</tagNameFormat>
