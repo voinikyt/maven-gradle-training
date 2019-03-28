@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import projects.UsersService;
+import users.UsersService;
 
 @WebServlet("/users")
 public class UsersServlet extends HttpServlet {

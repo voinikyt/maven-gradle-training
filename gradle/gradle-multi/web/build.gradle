@@ -11,9 +11,22 @@ gretty {
     contextPath = "/"
 }
 
+// Global resolution
+configurations.all {
+    resolutionStrategy.force 'com.google.guava:guava:15.0'
+}
+
 dependencies {
-    compile project(':projects-service')
-    compile project(':users-service')
+    implementation(project(':projects-service'))
+//    First way of resolving conflicts
+//            {exclude group: 'com.google.guava'}
+
+//    Second way of Resolving Conflicts
+//    implementation "com.google.guava:guava:15.0"
+
+    implementation(project(':users-service'))
+//    Actually Gradle resolves dependencies better by default so this is a way to cause a resolution problem.
+            { exclude group: 'com.google.guava' }
 
     compile "com.fasterxml.jackson.core:jackson-databind:2.9.8"
     compile 'commons-io:commons-io:2.6'

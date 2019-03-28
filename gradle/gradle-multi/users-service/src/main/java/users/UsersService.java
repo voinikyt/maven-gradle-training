@@ -1,4 +1,4 @@
-package projects;
+package users;
 
 import java.math.BigDecimal;
 import java.util.Set;
@@ -11,11 +11,11 @@ public class UsersService {
         Set<User> result = Sets.newConcurrentHashSet();
 
         result.add(User.builder()
-                .name("Training")
+                .name("Ivaylo Kolev")
                 .salary(BigDecimal.valueOf(0))
                 .build());
         result.add(User.builder()
-                .name("RBS")
+                .name("Georgy Georgiev")
                 .salary(BigDecimal.valueOf(1e9))
                 .build());
 
