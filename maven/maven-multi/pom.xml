@@ -32,6 +32,19 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>Release Versions</name>
+            <url>http://localhost:8081/artifactory/example-repo-local/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>Snapshot Versions</name>
+            <url>http://localhost:8081/artifactory/example-repo-local/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
