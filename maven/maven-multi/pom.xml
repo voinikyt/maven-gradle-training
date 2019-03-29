@@ -30,6 +30,14 @@
             <id>maven-central</id>
             <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:8081/artifactory/example-repo-local/releases</url>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <url>http://localhost:8081/artifactory/example-repo-local/snapshots</url>
+        </repository>
     </repositories>
 
     <distributionManagement>
