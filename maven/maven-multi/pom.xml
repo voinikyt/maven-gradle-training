@@ -4,14 +4,14 @@
 
     <groupId>com.build.tools.training</groupId>
     <artifactId>parent</artifactId>
-    <version>0.3.0</version>
+    <version>0.3.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
         <connection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</connection>
         <developerConnection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</developerConnection>
         <url>scm:git:git@github.com:voinikyt/maven-gradle-training.git</url>
-        <tag>0.3.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>
