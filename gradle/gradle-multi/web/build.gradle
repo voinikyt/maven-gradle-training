@@ -12,9 +12,9 @@ gretty {
 }
 
 // Global resolution
-configurations.all {
-    resolutionStrategy.force 'com.google.guava:guava:15.0'
-}
+//configurations.all {
+//    resolutionStrategy.force 'com.google.guava:guava:15.0'
+//}
 
 dependencies {
     implementation(project(':projects-service'))
