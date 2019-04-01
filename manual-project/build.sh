@@ -6,8 +6,8 @@ function clean {
 }
 function build {
     mkdir -p build/WEB-INF/classes
-    javac -cp "./libs/*" src/*.java -d build/WEB-INF/classes
-    cp -R libs build/WEB-INF/lib
+    javac -cp "./lib/*" src/*.java -d build/WEB-INF/classes
+    rsync -r --exclude=javax.servlet-api-4.0.1.jar lib build/WEB-INF/
 }
 
 function package {
