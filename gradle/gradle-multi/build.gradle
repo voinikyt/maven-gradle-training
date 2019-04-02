@@ -6,11 +6,11 @@ allprojects {
     group = 'com.build.tools.training'
     version = '0.2.0-SNAPSHOT'
 
-    apply plugin: "maven"
+    apply plugin: "maven" // gives tasks similar to the default lifecycle phases in Maven
     apply plugin: "com.dorongold.task-tree"
 
     repositories {
-        mavenLocal()
+        mavenLocal() // Use the same local repository as Maven
         mavenCentral()
         jcenter()
     }
@@ -28,6 +28,14 @@ subprojects {
         def lombokVersion = "1.18.6"
 
         dependencies {
+
+            // NO the children don't need to specify the version of guava
+//            constraints {
+//                implementation('com.google.guava:guava:15.0') {
+//                    because 'previous versions have a bug impacting this application'
+//                }
+//            }
+
             compileOnly "org.projectlombok:lombok:$lombokVersion"
             annotationProcessor("org.projectlombok:lombok:$lombokVersion")
 
