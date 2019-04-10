@@ -20,8 +20,6 @@ public class UsersService {
     public List<User> parseUsers() throws IOException {
         List<User> users = new ArrayList<>();
 
-        System.out.println(UsersService.class.getClassLoader().getResource("users.csv"));
-
         try (InputStream is = UsersService.class.getClassLoader().getResourceAsStream("users.csv");
              Reader reader = new InputStreamReader(new BOMInputStream(is), UTF_8);
              CSVParser parser = getParser(reader)) {
