@@ -15,7 +15,7 @@ function test {
     javac -cp "./libs/compile/*:./libs/runtime/*:./libs/test/*:./build/war/WEB-INF/classes" src/test/*.java -d build/tests
     cp src/test/response.json build/tests
     java -cp "./libs/compile/*:./libs/runtime/*:./libs/test/*:./build/war/WEB-INF/classes:./build/tests" \
-        torg.junit.runner.JUnitCore com.build.tools.training.web.UsersServiceTest
+        org.junit.runner.JUnitCore com.build.tools.training.web.UsersServiceTest
 }
 
 function package {
