@@ -1,7 +1,6 @@
 package com.build.tools.training.web;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.List;
 
 import javax.servlet.annotation.WebServlet;
@@ -12,17 +11,20 @@ import javax.servlet.http.HttpServletResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-@WebServlet("/names")
-public class NamesServlet extends HttpServlet {
+@WebServlet("/users")
+public class UsersController extends HttpServlet {
 
     private final ObjectWriter objectWriter = new ObjectMapper()
             .writerWithDefaultPrettyPrinter();
 
+    private final UsersService usersService = new UsersService();
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        List<String> names = Arrays.asList("Ivan", "Maria");
 
-        String json = objectWriter.writeValueAsString(names);
+        List<User> users = usersService.parseUsers();
+
+        String json = objectWriter.writeValueAsString(users);
 
         resp.getWriter().write(json);
     }
