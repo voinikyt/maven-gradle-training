@@ -1,0 +1,350 @@
+2019/04/15 12:28:16 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:35:17 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:35:19 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.0
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:35:21 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:40:19 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:54:07 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:54:09 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.1
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:54:11 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:54:59 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:55:34 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:55:36 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.2
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:56:20 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:58:26 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:58:49 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:59:14 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 12:59:29 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:00:45 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:01:27 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:01:40 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.0
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:01:42 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.1
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:01:43 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.2
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:02:02 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:02:04 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/refs/tags/0.4.0
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:02:07 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+
+2019/04/15 13:04:41 ...es/private/branch.go:21:GetProtectedBranchBy() [T] GetProtectedBranchBy: http://localhost:3000/api/internal/branch/2/master
+	/go/src/code.gitea.io/gitea/modules/private/branch.go:21 (0x111956c)
+	/go/src/code.gitea.io/gitea/cmd/hook.go:107 (0x153b0e1)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:471 (0x1108a2c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:191 (0x1109b27)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:362 (0x1107804)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:278 (0x110b23c)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/command.go:79 (0x110a540)
+	/go/src/code.gitea.io/gitea/vendor/github.com/urfave/cli/app.go:241 (0x1106b77)
+	/go/src/code.gitea.io/gitea/main.go:60 (0x154fb05)
+	/usr/local/go/src/runtime/proc.go:200 (0x436e2b)
+	/usr/local/go/src/runtime/asm_amd64.s:1337 (0x464c60)
+	
+

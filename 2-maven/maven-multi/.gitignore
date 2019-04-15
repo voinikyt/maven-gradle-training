@@ -1,0 +1,44 @@
+HELP.md
+*/target/*
+*/target/**
+
+*/build/*
+*/build/**
+
+!.mvn/wrapper/maven-wrapper.jar
+.vertx/
+target/
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+.DS_Store
+/.factorypath
+.gradle
+/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+classes/

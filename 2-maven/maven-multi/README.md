@@ -39,3 +39,14 @@ Check the deployed artifacts at http://localhost:8081/nexus/#browse/browse:maven
 
 
 ## Release the project
+
+### 1. Start Nexus server as described in the deployment instructions
+Wait for:
+- Nexus to appear at http://localhost:8081/nexus
+- Gitea to appear at http://localhost:3000/
+ 
+## 2. Release the project 
+1. Delete all remote tags - `git tag -l | xargs -n 1 git push --delete origin`
+2. Delete all local tags - `git tag | xargs git tag -d`
+3. Build the release and tag it in SCM - `mvn --batch-mode release:prepare -DreleaseVersion=0.4.0`
+4. Deploy the release to the Nexus repository -`mvn release:perform -s settings.xml`

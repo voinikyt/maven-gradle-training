@@ -4,13 +4,13 @@
 
     <groupId>com.build.tools.training</groupId>
     <artifactId>parent</artifactId>
-    <version>0.3.1-SNAPSHOT</version>
+    <version>0.4.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
-        <connection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</connection>
-        <developerConnection>scm:git:git@github.com:voinikyt/maven-gradle-training.git</developerConnection>
-        <url>scm:git:git@github.com:voinikyt/maven-gradle-training.git</url>
+        <connection>scm:git:http://localhost:3000/test/maven-multi.git</connection>
+        <developerConnection>scm:git:http://localhost:3000/test/maven-multi.git</developerConnection>
+        <url>http://localhost:3000/test/maven-multi</url>
         <tag>HEAD</tag>
     </scm>
 
