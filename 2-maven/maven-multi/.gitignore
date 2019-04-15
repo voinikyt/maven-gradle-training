@@ -42,3 +42,6 @@ target/
 /build/
 
 classes/
+
+README.md
+git-dir/
