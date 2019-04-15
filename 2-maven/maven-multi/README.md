@@ -23,14 +23,13 @@ Each snippet resolves the conflicting library versions of `guava` in different w
 
 ## Deploy to company repository
 
-### 1. Start Nexus server
-It takes a while for the server to start
-`docker rm nexus`
-`docker run -d -p 8081:8081 --name nexus -e NEXUS_CONTEXT=nexus sonatype/nexus3:3.16.0`
+### 1. Start Nexus server and local git server
+Go to environment folder in the root of the repository:
+`docker-compose up -d` 
 
-Go to http://localhost:8081/nexus/ and wait for the server to start.
-
-User and password are: admin/admin123
+Wait for:
+- Nexus to appear at http://localhost:8081/nexus -  Username/password - admin/admin123
+- Gitea to appear at http://localhost:3000/ - Username/password - test/test 
 
 ### 2. Deploy the application 
 `mvn clean deploy -s settings.xml`
@@ -41,10 +40,6 @@ Check the deployed artifacts at http://localhost:8081/nexus/#browse/browse:maven
 ## Release the project
 
 ### 1. Start Nexus server as described in the deployment instructions
-Wait for:
-- Nexus to appear at http://localhost:8081/nexus
-- Gitea to appear at http://localhost:3000/
-
 
 ### 2. Attach the project to the local git server
 - 'cp -R git-dir/ .git`  
