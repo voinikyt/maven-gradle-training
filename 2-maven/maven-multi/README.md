@@ -47,7 +47,10 @@ Wait for:
 
 
 ### 2. Attach the maven-multi project to the Gitea remote
+`git init` 
 `git remote add origin http://localhost:3000/test/maven-multi.git`
+'git fetch origin master'
+`git checkout master` 
  
 ### 3. Release the project 
 1. Delete all remote tags - `git tag -l | xargs -n 1 git push --delete origin`
