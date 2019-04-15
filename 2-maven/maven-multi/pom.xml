@@ -31,25 +31,25 @@
             <url>https://repo.maven.apache.org/maven2/</url>
         </repository>
         <repository>
-            <id>releases</id>
-            <url>http://localhost:8081/artifactory/example-repo-local/releases</url>
+            <id>maven-releases</id>
+            <url>http://localhost:8081/nexus/repository/maven-releases/</url>
         </repository>
         <repository>
-            <id>snapshots</id>
-            <url>http://localhost:8081/artifactory/example-repo-local/snapshots</url>
+            <id>maven-snapshots</id>
+            <url>http://localhost:8081/nexus/repository/maven-snapshots/</url>
         </repository>
     </repositories>
 
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>maven-releases</id>
             <name>Release Versions</name>
-            <url>http://localhost:8081/artifactory/example-repo-local/releases</url>
+            <url>http://localhost:8081/nexus/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>snapshots</id>
+            <id>maven-snapshots</id>
             <name>Snapshot Versions</name>
-            <url>http://localhost:8081/artifactory/example-repo-local/snapshots</url>
+            <url>http://localhost:8081/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 

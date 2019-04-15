@@ -19,3 +19,23 @@ Each snippet resolves the conflicting library versions of `guava` in different w
 - Clink on [http://localhost:8080/users] - you will receive an error. Fix it by uncommenting one of the sections in the `web/pom.xml` and restarting the application
 - Clink on [http://localhost:8080/projects]
 - Clink on [http://localhost:8080/resources] 
+
+
+## Deploy to company repository
+
+### 1. Start Nexus server
+It takes a while for the server to start
+`docker rm nexus`
+`docker run -d -p 8081:8081 --name nexus -e NEXUS_CONTEXT=nexus sonatype/nexus3:3.16.0`
+
+Go to http://localhost:8081/nexus/ and wait for the server to start.
+
+User and password are: admin/admin123
+
+### 2. Deploy the application 
+`mvn clean deploy -s settings.xml`
+
+Check the deployed artifacts at http://localhost:8081/nexus/#browse/browse:maven-snapshots:com%2Fbuild%2Ftools%2Ftraining
+
+
+## Release the project
