@@ -41,9 +41,20 @@ Check the deployed artifacts at http://localhost:8081/nexus/#browse/browse:maven
 
 ### 1. Start Nexus server as described in the deployment instructions
 
-### 2. Attach the project to the local git server
-- 'cp -R git-dir/ .git`  
- 
+### 2. Setup a Gitea user and repository
+1. Open http://localhost:3000/
+2. Click `Explore`
+3. Go to `Account Settings` at the bottom and create user and password test/test
+4. Create new repository called `maven-multi` and make sure it's not private in `Visibility` checkbox.
+5. Go to the maven-multi project in the source code and:
+```bash
+git init
+git remote add origin http://localhost:3000/test/maven-multi.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+```
+
 ### 3. Release the project 
 1. Delete all remote tags - `git tag -l | xargs -n 1 git push --delete origin`
 2. Delete all local tags - `git tag | xargs git tag -d`

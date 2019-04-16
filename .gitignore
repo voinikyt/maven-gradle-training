@@ -45,3 +45,4 @@ classes/
 buld-tools.pptx
 
 environment/gitea/
+environment/gitea/**
